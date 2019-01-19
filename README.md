@@ -14,6 +14,7 @@
 ## Screenshots
 
 
-![](https://github.com/HaimingZ/Typora-Wiki-theme/blob/master/screenshots/en.png)
+![](/Screenshots/en.png)
 
-![](https://github.com/HaimingZ/Typora-Wiki-theme/raw/master/screenshots/zh.png)
+![](/Screenshots/zh.png
+      
