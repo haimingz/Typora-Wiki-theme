@@ -16,5 +16,5 @@
 
 ![](/Screenshots/en.png)
 
-![](/Screenshots/zh.png
+![](/Screenshots/zh.png)
       
