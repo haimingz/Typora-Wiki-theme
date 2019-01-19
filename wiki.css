@@ -1,0 +1,183 @@
+ /*page layout & fonts*/
+ body{
+ margin-top:100px;
+ margin-bottom:100px; 
+ }
+ #write { 
+ font-family:sans-serif，Georgia ;
+ font-size: 13px;
+ text-align:justify;
+ } 
+ 
+ /*headers*/
+ h1{ 
+ text-align:left;
+ font-family: Georgia;
+ font-weight:normal;
+ font-size:2em; 
+ margin-top:1.5em;
+ margin-bottom:0.25em; 
+ border-bottom: 1px solid rgb(162, 169, 177);
+ }
+ h2 {
+ text-align:left;
+ font-family: Georgia;
+ font-weight:normal;
+ font-size:1.5em; 
+ margin-top:1em;
+ margin-bottom:0.25em; 
+ border-bottom: 1px solid rgb(162, 169, 177);
+ }
+ h3 {
+ text-align:left;
+ font-family: sans-serif;
+ font-weight:bold; 
+ font-size:1.25em; 
+ margin-top:.5em;
+ margin-bottom:.5em; 
+ }
+ h4 {
+ text-align:left;
+ font-family: sans-serif;
+ font-weight:bold; 
+ font-size: 1.15em; 
+ margin-top:.5em;
+ margin-bottom:.5em; 
+ }
+ h5 {
+ text-align:left;
+ font-family: sans-serif;
+ font-weight:normal; 
+ font-style: italic;
+ font-size:1.15em; 
+ margin-top:.5em;
+ margin-bottom:.5em; 
+ }
+ h6 {
+ text-align:left;
+ font-family: sans-serif;
+ font-weight:normal; 
+ font-style: italic;
+ font-size:1em; 
+ margin-top:.5em;
+ margin-bottom:.5em; 
+ }
+ 
+ /*normal texts*/
+ p {
+ font-family: sans-serif; 
+ font-size:1em;
+ line-height:1.6em;
+ color: #222222;
+ margin-top: .5em;
+ margin-bottom: .5em;
+ margin-right:0;
+ margin-left:0; 
+ } 
+ 
+ /*quote block*/
+ blockquote{ 
+ margin-top: 1em;
+ margin-bottom: 1em;
+ margin-right:0;
+ margin-left:2em;
+ padding-left: 1em;
+ padding-top:0px;
+ padding-bottom:0px;
+ border-left: 0px rgb(162, 169, 177) solid;
+ font-style: italic;
+ font-size:1em;
+ } 
+ 
+ /*Code font*/
+ pre, code, kbd, samp {
+ font-family:consolas, monospace;
+ font-size: 0.9em; 
+ }
+ 
+ /*code block*/
+ .md-fences{
+ border: 1px solid rgb(234, 236, 240); 
+ background: rgb(248, 249, 250);
+ border-radius: 0px;  
+ margin-bottom: 1em;
+ margin-top: 1em;
+ padding: 1em 1em; 
+ font-size:1em;
+ }
+ .CodeMirror-lines {
+ padding-left: 4px; 
+ }
+ .code-tooltip {
+ box-shadow: 0 1px 1px 0 #999999;
+ border-top: 1px solid #eef2f2;
+ }
+ 
+ /*inline code*/
+ code{ 
+ border: 1px solid rgb(234, 236, 240); 
+ background: rgb(248, 249, 250);
+ border-radius: 1px; 
+ padding: 2px 4px 0px 4px ; 
+ }
+ 
+ /*table*/
+ table {
+ font-family: sans-serif;
+ font-size: 1em;
+ text-align: left; 
+ } 
+ /*first row of the table*/
+ thead { 
+ text-align: center; 
+ background: rgb(234, 236, 240); 
+ }
+ /*conent in the first row*/ 
+ th {
+ font-weight: bold; 
+ border: 1px solid rgb(162, 169, 177);
+ padding: 0.1em 0.5em;
+ } 
+ td{
+ border: 1px solid rgb(162, 169, 177);
+ padding: 0.1em 0.5em;
+ }
+ 
+ /*TOC*/
+ .md-toc{
+ font-size: 1em; 
+ background: rgba(248,249,250,1) ; 
+ border:1px solid rgba(162, 169, 177,1);
+ border-radius: 0px;
+ margin-left: 0.1em;
+ margin-right: 0.1em; 
+ }
+ 
+ /*Image*/
+ img { 
+ zoom: .5;
+ border: 1px solid rgb(162, 169, 177);
+ padding: 5px;
+ background: rgb(248, 249, 250);
+ }
+ 
+ /*unordered list, ordered List*/
+ ul, ol{margin: 0; padding: 0 0 0 2em;}
+ 
+ /*defination list*/
+ dt{font-weight :bold}
+ dd { margin: 0 0 0 2em; } 
+ dfn { font-style: italic; }
+ 
+ /*Footnote*/
+ sup.md-footnote {
+ background-color: initial;
+ }
+ .footnotes {
+ font-size: .9em; 
+ color: black;
+ }
+ 
+ /*Hyperlink*/
+ a{ color: rgb(6, 64, 161); text-decoration:none;} 
+ a:hover{ color: rgb(6, 64, 161); text-decoration-line: underline } 
