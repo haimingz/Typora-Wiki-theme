@@ -9,7 +9,7 @@
 
 ## Highlights
 
-- The code in `css` file was reduced and structured (In an amateur way). Necessary comments were added. As a result, this theme can be easily modified by people who are not familiar with `HTML` and `CSS` (Just like me).
+- The code in `css` file was reduced and structured. Necessary comments were added. As a result, this theme can be easily modified by people who are not familiar with `HTML` and `CSS` (Just like me).
 
 ## Screenshots
 
